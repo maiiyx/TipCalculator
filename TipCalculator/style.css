@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 100vh;
+    background-color:  hsl(185, 41%, 84%)
+}
+
+main{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+section{
+    display: flex;
+    margin: 100px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+article{
+    background: #FFFFFF;
+    border-radius: 15px 0 0 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+}
+
+aside{
+    width: 270px;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.result{
+    border-radius: 0 15px 15px 0;
+}
+
+.box2{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    align-items: center;
+    display: grid;
+}
+
+.bill, .tip, .people{
+    margin-bottom: 5px;
+    color: hsl(183, 100%, 15%);
+    font-size: 12px;
+}
+
+.people{
+    margin-top: 20px;
+}
+
+input{
+    border: none;
+    width: 250px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    text-align: right;
+}
+
+.input1, .input2{
+    display: flex;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+}
+
+.icon1, .icon2{
+    padding: 5px;
+}
+
+.porcent{
+    margin-top: 20px;
+}
+
+.btns{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.btns1, .btns2{
+    display: flex;
+    gap: 10px;
+}
+
+.porcentagem{
+    width: 70px;
+    height: 35px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    color: #FFFFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.custom{
+    text-align: center;
+    width: 70px;
+    height: 35px;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+}
+
+.custom:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+
+.reset{
+    width: 230px;
+    height: 35px;
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: hsl(180, 90%, 25%);
+}
+
+.amount, .total{
+    color: #FFFFFF;font-size: 12px;}
+
+output{
+    color: hsl(184, 14%, 56%);
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+
+.out1, .out2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.output{
+    font-size: 25px;
+    color: hsl(172, 67%, 45%);
+}

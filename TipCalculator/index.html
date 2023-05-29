@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+
+  <main>
+    <header>
+      <img src="images/logo.svg" alt="">
+    </header>
+    <section>
+      <article class="infos">
+        <aside>
+          <p class="bill">Bill</p>
+          <div class="input1">
+            <p class="icon1"><img src="images/icon-dollar.svg" width="10px" alt=""></p>
+            <input id="valor" type="text">
+          </div>
+          <div class="porcent">
+            <p class="tip">Select Tip %</p>
+              <div class="btns">
+                <div class="btns1">
+                  <button id="btn5" class="porcentagem">5%</button>
+                  <button id="btn10" class="porcentagem">10%</button>
+                  <button id="btn15" class="porcentagem">15%</button>
+                </div>
+                <div class="btns2">
+                  <button id="btn25" class="porcentagem">25%</button>
+                  <button id="btn50" class="porcentagem">50%</button>
+                  <input id="btnCustom" class="custom" placeholder="Custom"></input>
+                </div>
+              </div>
+          </div>
+          <p class="people">Number of People</p>
+          <div class="input2">
+            <p class="icon2"><img src="images/icon-person.svg" width="10px" alt=""></p>
+            <input id="pessoas" type="text">
+          </div>
+        </aside>
+      </article>
+      <article class="result">
+        <aside class="box2">
+          <div class="out1">
+            <div class="total">
+              <p class="amount">Tip Amount</p>
+              <output>/ person</output>
+            </div>
+            <div class="output" id="outTotal">$0.00</div>
+          </div>
+          <div class="out2">
+            <div class="divis">
+              <p class="total">Total</p>
+              <output>/ person</output>
+            </div>
+            <div class="output" id="outDivisao">$0.00</div>
+          </div>
+          <button id="btnReset" class="reset">RESET</button>
+      </aside>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+  
+</body>
+</html>
